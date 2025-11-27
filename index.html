@@ -1,0 +1,89 @@
+PDF formatting can't be directly generated here, but I can create a ready-to-export HTML file which, when opened in a browser, can be saved as a properly formatted A4 PDF. It will include a styled title page and all sections with full calculations.
+
+Here’s the HTML you can use:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Math Project - Cylinder & Sphere</title>
+<style>
+  @page { size: A4; margin: 2cm; }
+  body { font-family: 'Times New Roman', serif; line-height: 1.5; color: #000; }
+  .title-page { text-align: center; margin-top: 150px; }
+  .title-page h1 { font-size: 36px; margin-bottom: 20px; }
+  .title-page h2 { font-size: 24px; margin-bottom: 40px; }
+  .details { font-size: 18px; margin-top: 20px; }
+  h3 { text-decoration: underline; margin-top: 40px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+  table, th, td { border: 1px solid black; }
+  th, td { padding: 8px; text-align: center; }
+  .calculation-step { margin-left: 20px; }
+</style>
+</head>
+<body>
+
+<div class="title-page">
+  <h1>Measurement of Cylinder and Sphere</h1>
+  <h2>Finding CSA, TSA, and Volume</h2>
+  <div class="details">
+    Name: Sincere Bhattarai<br>
+    Class: 9<br>
+    Subject: Compulsory Mathematics<br>
+    Date: _______
+  </div>
+</div>
+
+<h3>1. Objective</h3>
+<p>To measure the dimensions of one cylindrical object and one spherical object and calculate their CSA, TSA, and Volume using π = 22/7.</p>
+
+<h3>2. Materials Used</h3>
+<ul>
+<li>One cylindrical container</li>
+<li>One spherical ball</li>
+<li>Ruler</li>
+<li>Calculator</li>
+<li>Notebook and pen</li>
+</ul>
+
+<h3>3. Procedure</h3>
+<ol>
+<li>Select one cylinder and one sphere for measurement.</li>
+<li>Measure diameter using a ruler.</li>
+<li>Calculate radius by dividing diameter by two.</li>
+<li>For cylinder, measure height.</li>
+<li>Substitute the values in CSA, TSA, and Volume formulas using π = 22/7.</li>
+<li>Record step-by-step calculations.</li>
+</ol>
+
+<h3>4. Measurements</h3>
+<p><strong>Cylinder:</strong> Diameter = 7 cm, Radius = 3.5 cm, Height = 22 cm</p>
+<p><strong>Sphere:</strong> Diameter = 6 cm, Radius = 3 cm</p>
+
+<h3>5. Calculations</h3>
+<h4>A. Cylinder</h4>
+<p class="calculation-step"><strong>CSA:</strong> 2πrh = 2 × 22/7 × 3.5 × 22 = 484 cm²</p>
+<p class="calculation-step"><strong>TSA:</strong> 2πr(r+h) = 2 × 22/7 × 3.5 × 25.5 = 561 cm²</p>
+<p class="calculation-step"><strong>Volume:</strong> πr²h = 22/7 × (3.5)² × 22 = 847 cm³</p>
+
+<h4>B. Sphere</h4>
+<p class="calculation-step"><strong>TSA:</strong> 4πr² = 4 × 22/7 × 3² = 113.14 cm²</p>
+<p class="calculation-step"><strong>Volume:</strong> 4/3πr³ = 4/3 × 22/7 × 27 = 113.14 cm³</p>
+
+<h3>6. Final Results Table</h3>
+<table>
+<tr><th>Object</th><th>Diameter (cm)</th><th>Radius (cm)</th><th>Height (cm)</th><th>CSA (cm²)</th><th>TSA (cm²)</th><th>Volume (cm³)</th></tr>
+<tr><td>Cylinder</td><td>7</td><td>3.5</td><td>22</td><td>484</td><td>561</td><td>847</td></tr>
+<tr><td>Sphere</td><td>6</td><td>3</td><td>—</td><td>—</td><td>113.14</td><td>113.14</td></tr>
+</table>
+
+<h3>7. Conclusion</h3>
+<p>The cylinder has a larger CSA and volume than the sphere due to its greater height. The project helped understand how real-life objects relate to mathematical formulas.</p>
+
+<h3>8. Acknowledgement</h3>
+<p>I thank my mathematics teacher for guidance and my parents and friends for their support during this project.</p>
+
+</body>
+</html>
+```
